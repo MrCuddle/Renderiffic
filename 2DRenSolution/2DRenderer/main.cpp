@@ -126,6 +126,7 @@ void Render(SpriteRenderer& ren)
 {
     glClear(GL_COLOR_BUFFER_BIT);
     ren.DrawSprite(glm::vec2(40.0,40.0), glm::vec2(30,30));
+    ren.DrawSprite(glm::vec2(234.0,80), glm::vec2(50,50), glm::radians(45.f));
     SDL_GL_SwapWindow(gWindow);
 }
 
